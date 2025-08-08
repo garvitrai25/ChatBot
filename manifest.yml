@@ -1,0 +1,51 @@
+applications:
+  - name: flask-chatbot
+    memory: 512M
+    disk_quota: 1G                  # Optional but good to limit disk usage
+    instances: 1                    # Optional: number of app instances
+    timeout: 180                    # Optional: increase startup timeout if needed
+    buildpacks:
+      - python_buildpack
+    command: python app.py          # Explicit run command (if Procfile not used)
+    env:
+      FLASK_ENV: production
+      TOGETHER_API_KEY: tgp_v1_bJNtdiv1Gblc1XHYCMfue_7kFQmxPoUi64_5-XSA9VY
+      TOGETHER_MODEL: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+      OPENWEATHER_API_KEY: 8e8cb0693c407643ca8ecb4c3f6ed680
+
+
+
+# this is current working  
+# applications:
+#   - name: flask-chatbot
+#     memory: 512M
+#     disk_quota: 1G                  # Optional but good to limit disk usage
+#     instances: 1                    # Optional: number of app instances
+#     timeout: 180                    # Optional: increase startup timeout if needed
+#     buildpacks:
+#       - python_buildpack
+#     command: python app.py          # Explicit run command (if Procfile not used)
+#     env:
+#       FLASK_ENV: production
+#       TOGETHER_API_KEY: tgp_v1_bJNtdiv1Gblc1XHYCMfue_7kFQmxPoUi64_5-XSA9VY
+#       TOGETHER_MODEL: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+#       OPENWEATHER_API_KEY: 8e8cb0693c407643ca8ecb4c3f6ed680
+
+
+# thisis openapi
+# applications:
+#   - name: flask-chatbot
+#     memory: 512M
+#     disk_quota: 1G
+#     instances: 1
+#     timeout: 180
+#     buildpacks:
+#       - python_buildpack
+#     command: python app.py
+#     env:
+#       FLASK_ENV: production
+#       AI_API_URL: https://api.ai.prod.us-east-1.aws.ml.hana.ondemand.com
+#       AI_CLIENT_ID: sb-59de6068-458a-4385-887e-3330c1a10887!b440312|aicore!b164
+#       AI_CLIENT_SECRET: a37f58d0-ec0b-4418-89e9-7e5ce77f736a$hQ2iH76zdmSa7ME-05Qje4PJ6O6E8NDs4tiP68WsyDk=
+#       AI_TOKEN_URL: https://kpmg-sap-bpa-l0jvxdmm.authentication.us10.hana.ondemand.com/oauth/token
+#       OPENWEATHER_API_KEY: 8e8cb0693c407643ca8ecb4c3f6ed680

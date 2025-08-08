@@ -1,0 +1,53 @@
+{
+  "purchase_order": {
+    "keywords": [
+      "po", "purchase order", "purchase-order", "purch order", "purch-order",
+      "po status", "purchase order status", "purchase order info", "purchase order details",
+      "status of po", "po details", "order status", "purchaseorder", "perchorder",
+      "perch order", "purchase ordr", "status of purchase order", "track po",
+      "track purchase order", "get po status", "get purchase order details",
+      "purchase order update", "po update", "check po", "order info", "my po status",
+      "details of po", "status of my po", "sap po", "track my order"
+    ],
+    "sample_questions": [
+      "What is the status of PO 1234?",
+      "Tell me my purchase order status.",
+      "Show purchase order details",
+      "Track PO 4567",
+      "I want to check po status",
+      "Is purchase order 7890 approved?"
+    ]
+  },
+  "invoice_status": {
+    "keywords": [
+      "invoice", "invoice status", "inv status", "invoice info", "billing status",
+      "bill status", "invoice update", "invoice number", "invoice details",
+      "check invoice", "inv number", "inv info", "status of invoice", "invoice 1234",
+      "invoice for order", "invoice history", "status of my invoice",
+      "my invoice", "bill information", "invoice details please", "track invoice",
+      "sap invoice", "invoice info please"
+    ],
+    "sample_questions": [
+      "Get invoice status of invoice 9876",
+      "Show invoice details",
+      "I want billing info",
+      "Check invoice number 6543",
+      "Is my invoice approved?",
+      "What’s the invoice update for PO 5432?"
+    ]
+  },
+  "greetings": {
+    "keywords": [
+      "hi", "hello", "hey", "good morning", "good afternoon", "good evening"
+    ],
+    "sample_questions": [
+      "hi",
+      "hello assistant",
+      "good morning"
+    ]
+  },
+  "fallback": {
+    "keywords": [],
+    "sample_questions": []
+  }
+}
