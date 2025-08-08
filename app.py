@@ -23,7 +23,7 @@ OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
 SAP_BASE_URL = "http://52.172.11.94:8001"
 SAP_SERVICE = "/sap/opu/odata/SAP/ZINV_STATUS_SRV"
-SAP_AUTH = HTTPBasicAuth("VIKASH", "Kpmg$1234567890")
+SAP_AUTH = HTTPBasicAuth("XYZ", "xyz")
 HEADERS = {"Accept": "application/json"}
 
 # Load intents
